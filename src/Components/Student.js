@@ -2,7 +2,7 @@ import React ,{useState}from 'react'
 
 const Student=()=>{
 
-const[data,setData]=useState([
+const[data]=useState([
     {
       Name:"Akanksha",
       Age:21,
