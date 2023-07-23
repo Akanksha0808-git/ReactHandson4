@@ -1,0 +1,58 @@
+body{
+  background-image: linear-gradient(rgba(0, 255, 255, 0.349),pink);
+  height: 100vh;
+ margin: 0;
+ padding: 0;
+}
+#navbar{
+
+  background-color: rgb(142, 45, 142);
+  height: 50px;
+   width: 100%;
+}
+
+a {
+
+  text-decoration: none;
+  margin-left: 300px;
+  color: #ffff;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+table{
+ width: 90%;
+  margin-left: 70px;
+height: 470px;
+ background-size: cover;
+ background-color: #ffff;
+ border: 2px solid black;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  margin-left: 670px;
+  font-size: 40px;
+ 
+}
+.studenthead{
+  margin-left: 120px;
+}
+#btnhere{
+  position: relative;
+}
+button{
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  right: 150px;
+  top: -60px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #ffff;
+  cursor: pointer;
+}
+
