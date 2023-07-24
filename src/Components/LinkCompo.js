@@ -7,11 +7,11 @@ const LinkCompo = () => {
   return (
 
     <div id='navbar'>
-          <Link to="/">Home</Link>
+          <Link to="/"  className='link'>Home</Link>
        
-          <Link to="/Student">Students</Link>
+          <Link to="/Student" className='link'>Students</Link>
       
-          <Link to="/Contact">Contact Us</Link>
+          <Link to="/Contact" className='link'>Contact Us</Link>
           </div>   
   );
 };

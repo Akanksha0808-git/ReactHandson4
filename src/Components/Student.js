@@ -1,4 +1,5 @@
 import React ,{useState}from 'react'
+import { Link } from 'react-router-dom';
 
 const Student=()=>{
 
@@ -66,13 +67,21 @@ const[data]=useState([
         Batch:"March",
         Change:"Edit"
       }
+      ,
+      {
+        Name:"Kailash",
+        Age:23,
+        Course:"MERN",
+        Batch:"March",
+        Change:"Edit"
+      }
     
 ])
     return(
 <div>
         <h1 className='studenthead'>Students Details</h1>
         <div id='btnhere'><button>Add new Student</button></div>
-        <table border={2}>
+        <table>
             <tr>
                 <th>Name</th>
                 <th>Age</th>
@@ -88,7 +97,7 @@ const[data]=useState([
         <td> {item.Age}</td>
         <td >{item.Course}</td>
         <td >{item.Batch}</td>
-        <td> {item.Change}</td>
+        <td><Link to='#' className='changelink'> {item.Change}</Link></td>
          </tr>
                 )
             })}

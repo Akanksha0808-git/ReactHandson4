@@ -11,17 +11,21 @@ body{
    width: 100%;
 }
 
-a {
+.changelink {
+  /* margin-left: 40px; */
+  text-decoration: underline;
+  font-family: 'Playfair Display', serif;
+}
 
+.link:hover {
+text-decoration: underline;
+}
+.link{
   text-decoration: none;
   margin-left: 300px;
   color: #ffff;
   font-size: 30px;
   font-family: 'Playfair Display', serif;
-}
-
-a:hover {
-text-decoration: underline;
 }
 
 table{
@@ -30,8 +34,12 @@ table{
 height: 470px;
  background-size: cover;
  background-color: #ffff;
- border: 2px solid black;
+ border-collapse: collapse;
 }
+table tr{
+  border-bottom: 2px solid black;
+}
+
 h1{
   font-family: 'Playfair Display', serif;
   margin-left: 670px;
@@ -55,4 +63,3 @@ button{
   background-color: #ffff;
   cursor: pointer;
 }
-
